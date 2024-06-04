@@ -1,7 +1,7 @@
 [package]
 org = "niveathika"
 name = "pluralize"
-version = "1.0.0"
+version = "@toml.version@"
 authors = ["Niveathika"]
 keywords = ["Plural", "Pluralize", "Singular", "Singularize"]
 repository = "https://github.com/ballerina-platform/module-niveathika-pluralize"
