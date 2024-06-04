@@ -1,5 +1,10 @@
 ## Pluralize Ballerina Connector
 
+[![Build](https://github.com/niveathika/module-niveathika-pluralize/actions/workflows/ci.yml/badge.svg)](https://github.com/niveathika/module-niveathika-pluralize/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/niveathika/module-niveathika-pluralize/branch/main/graph/badge.svg)](https://codecov.io/gh/niveathika/module-niveathika-pluralize)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/niveathika/module-niveathika-pluralize.svg)](https://github.com/niveathika/module-niveathika-pluralize/commits/main)
+[![GitHub Issues](https://img.shields.io/github/issues/niveathika/module-niveathika-pluralize.svg?label=Open%20Issues)](https://github.com/niveathika/module-niveathika-pluralize/issues)
+
 The `pluralize` Ballerina Connector is designed to assist with the pluralization and singularization of English words. This can be particularly useful when generating dynamic strings based on numerical values.
 
 This module utilizes a predefined list of rules, applied sequentially, to singularize or pluralize a given word. This can be beneficial in many scenarios, such as automating tasks based on user input. For applications where the words are known in advance, a simple ternary (or function) can be used as a lighter alternative.
