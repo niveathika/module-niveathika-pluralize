@@ -1,4 +1,4 @@
-## Pluralize Ballerina Connector
+# Pluralize Ballerina Connector
 
 [![Build](https://github.com/niveathika/module-niveathika-pluralize/actions/workflows/ci.yml/badge.svg)](https://github.com/niveathika/module-niveathika-pluralize/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/niveathika/module-niveathika-pluralize/branch/main/graph/badge.svg)](https://codecov.io/gh/niveathika/module-niveathika-pluralize)
@@ -11,11 +11,11 @@ This module utilizes a predefined list of rules, applied sequentially, to singul
 
 This module is a migration of the [`pluralize`](https://www.npmjs.com/package/pluralize) library by [`Blake Embrey`](https://github.com/blakeembrey). All credit goes to him.
 
-### Quickstart
+## Quickstart
 
 To use the `pluralize` connector in your Ballerina application, modify the `.bal` file as follows:
 
-#### Step 1: Import the module
+### Step 1: Import the module
 
 Import the `pluralize` module.
 
@@ -23,7 +23,7 @@ Import the `pluralize` module.
 import niveathika/pluralize;
 ```
 
-#### Step 2: Invoke the connector operation
+### Step 2: Invoke the connector operation
 
 Now, utilize the available connector operations.
 
@@ -40,15 +40,15 @@ pluralize:isPlural("test"); // false
 pluralize:isPlural("tests"); // true
 ```
 
-#### Step 3: Run the Ballerina application
+### Step 3: Run the Ballerina application
 
 ```bash
 bal run
 ```
 
-### Build from the source
+## Build from the source
 
-#### Prerequisites
+### Prerequisites
 
 1. Download and install Java SE Development Kit (JDK) version 17. You can download it from either of the following sources:
 
@@ -63,7 +63,7 @@ bal run
 
     > **Note**: Ensure that the Docker daemon is running before executing any tests.
 
-#### Build options
+### Build options
 
 Execute the commands below to build from the source.
 
