@@ -122,6 +122,10 @@ function replaceWordWithRules(string word, string token, [regexp:RegExp, Capture
 }
 
 function restoreCase(string word, string token) returns string {
+    if !tryToRestoreCase {
+        return token;
+    }
+
     if word == token {
         return token;
     }

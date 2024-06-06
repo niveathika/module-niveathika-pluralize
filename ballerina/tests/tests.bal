@@ -74,7 +74,7 @@ import ballerina/test;
 [string, string][] pluralDatasetExceptions = [
     ["box", "boxes"],
     ["Octopus", "Octopuses"],
-    ["KNIFE", "KNIVES"],
+    ["KNIfe", "KNIves"],
     ["loaf", "loaves"],
     ["index", "indices"],
     ["sheep", "sheep"],
