@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+
+## [1.0.1] - 06/06/2024
+
+### Changed
 - Disable restore case functionality by default.
 
 ## [1.0.0] - 03/06/2024
